@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Choice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bazzi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/Bazzi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    width:100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(126, 187, 184);
+    color : #000;
+    font-family: "ELAND_Choice_M";
+    width: 100%;
+    height: 100%;
+}
+
+
+#content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+
+h1{
+    justify-content: center;
+}
+

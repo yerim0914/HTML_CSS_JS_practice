@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="aaa.css">
+</head>
+<body>
+    <div id="container">
+    <h1 class="htag">웹 문서 만들기</h1>
+    <strong>안녕하세요</strong>
+    <p>안녕하세요</p>
+    <b>안녕하세요</b>
+    <em>안녕하세요</em>
+    <i>안녕하세요</i>
+    <abbr title="Internet of Things">IOT</abbr><br>
+    <code>printf("hi")</code>
+    <p><s>hihihihi</s></p>
+    <del>삭제한다</del>
+    <ol type = "I">
+        <li>샐러드 채소를 씻어 물기를 제거한 후 먹기 좋게 썰어서 준비합니다.</li>
+        <li>레드향과 아보카도, 토마토도 먹기 좋은 크기로 썰어 둡니다.</li>
+        <li>드레싱 재료를 믹서에 한꺼번에 넣고 갈아 줍니다.</li>
+        <li>볼에 샐러드 채소와 레드향, 아보카도, ㅌ마토를 넣고 드레싱을 뿌리면 끝!</li>
+    </ol>
+    <ul class="ullist">
+        <li>샐러드 채소를 씻어 물기를 제거한 후 먹기 좋게 썰어서 준비합니다.</li>
+        <li>레드향과 아보카도, 토마토도 먹기 좋은 크기로 썰어 둡니다.</li>
+        <li>드레싱 재료를 믹서에 한꺼번에 넣고 갈아 줍니다.</li>
+        <li>볼에 샐러드 채소와 레드향, 아보카도, ㅌ마토를 넣고 드레싱을 뿌리면 끝!</li>
+    </ul>
+    <table>
+        <caption> 선물용과 가정용 상품구성</caption>\
+        <colgroup>
+            <col style = "background-color: #eee; width:80px">
+            <col style = "width:50px">
+            <col span ="2" style = "width:150px">
+        </colgroup>
+        <tr>
+            <th>용도</th>
+            <th>중량</th>
+            <th>개수</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td rowspan="2">선물용</td>
+            <td>3kg</td>
+            <td>11~16 과</td>
+            <td>35,000원</td>
+        </tr>
+        <tr>
+            <td>5kg</td>
+            <td>11~16 과</td>
+            <td>40,000원</td>
+        </tr>
+        <tr>
+            <td>가정용</td>
+            <td>3kg</td>
+            <td>11~16 과</td>
+            <td>30,000원</td>
+        </tr>
+    </table>
+    <form action="" autocomplete="on">
+
+        <fieldset>
+            <legend>상품 선택</legend>
+        </fieldset>
+        <fieldset>
+            <legend>배송정보</legend>
+        </fieldset>
+
+        <fieldset>
+            <legend>회원가입</legend>
+            <label for="user_id">아이디 6자이상 </label>
+            <input type ="text" id ="user_id">
+        </fieldset>
+
+        <fieldset>
+            <legend>사용자 정보</legend>
+            <ul>
+                <li>
+                    <label for="user_id">아이디 6자이상 </label>
+                    <input type ="text" id ="user_id" autofocus required>
+                </li>
+                <li>
+                    <label for="umail">이메일</label>
+                    <input type="email" id = "umail">
+                </li>
+                <li>
+                    <label for="pwd1" >비밀번호</label>
+                    <input type="password" id ="pwd1" placeholder="문자와 숫자, 특수 기호 포함">
+                </li>
+                <li>
+                    <label for="pwd2" >비밀번호</label>
+                    <input type="password" id ="pwd2">
+                </li>
+            </ul>
+        </fieldset>
+
+        <input type="search">
+        <input type="submit" value="로그인" >
+        <input type="checkbox" value="s_1">선물용
+        <input type="checkbox" value="s_2">선물용
+        <input type="radio" name="gift" value="yes" checked>포장
+        <input type="radio" name="gift" value="no">포장안함
+        <div id="buttons">
+            <input type="submit" value="가입하기">
+            <input type="reset" value="취소">
+        </div>
+        <input type="number" max="3">
+        <input type="range" max="3" value="1">개
+        <input type="date" type="month" type="week">
+    </form>
+
+    <form>
+        <input type="button" value="창열기" onclick="window.open('notice.html')">
+    </form>
+    <label for="memo">메모</label>
+    <textarea id="memo" cols="40" rows="4">
+        안녕 나는 이예림이다
+    </textarea>
+    <br>
+    <label for="prod">선택</label>
+    <select id="prod">
+        <option value="1" selected>내용1</option>
+        <option value="2">내용2</option>
+    </select>
+    <div id="box1">
+
+    </div>
+    <div id="box2">
+
+    </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ul>
+    </nav>
+</body>
+</html>
